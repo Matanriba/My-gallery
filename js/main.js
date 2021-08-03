@@ -55,7 +55,7 @@ function renderProjs() {
             <i class="fa fa-plus fa-3x"></i>
             </div>
             </div>
-            <img class="img-fluid" src="../img/${proj.id}-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/${proj.id}-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
             <h4>${proj.name}</h4>
@@ -85,7 +85,7 @@ function renderModal(projId) {
                 <!-- Project Details Go Here -->
                 <h2>${currProj.name}</h2>
                 <p class="item-intro text-muted">${currProj.title}</p>
-                <img class="img-fluid d-block mx-auto" src="../img/${currProj.id}-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/${currProj.id}-full.jpg" alt="">
                 <p>${currProj.desc}</p>
                 <ul class="list-inline">
                   <li>Link: <a href="${currProj.url}" class="badge badge-primary">${currProj.id}</a></li>
